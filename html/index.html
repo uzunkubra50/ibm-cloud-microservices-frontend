@@ -4,10 +4,10 @@
     td:nth-child(even), th:nth-child(even) {
   background-color: #D6EEEE;
 }
-  </style>
-  <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
+</style>
+<script>
+let produrl = "https://prodlist.29cvgxprjqvl.us-south.codeengine.appdomain.cloud/"
+let dealerurl = "https://dealerdetails.29cvgxprjqvl.us-south.codeengine.appdomain.cloud/"
 
     axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
